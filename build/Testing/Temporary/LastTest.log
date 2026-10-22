@@ -1,0 +1,19 @@
+Start testing: Oct 22 11:44 RTZ 2 (зима)
+----------------------------------------------------------
+Unable to find executable: C:/OOPLAB2/build/Debug/run_tests.exe
+1/1 Testing: AllPolynomialTests
+1/1 Test: AllPolynomialTests
+Command: ""
+Directory: C:/OOPLAB2/build
+"AllPolynomialTests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AllPolynomialTests" end time: Oct 22 11:44 RTZ 2 (зима)
+"AllPolynomialTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 22 11:44 RTZ 2 (зима)

@@ -1,0 +1,5 @@
+if(EXISTS "C:/OOPLAB2/build/run_tests_e3b0c442_MinSizeRel_tests.cmake")
+  include("C:/OOPLAB2/build/run_tests_e3b0c442_MinSizeRel_tests.cmake")
+else()
+  add_test(run_tests_NOT_BUILT run_tests_NOT_BUILT)
+endif()

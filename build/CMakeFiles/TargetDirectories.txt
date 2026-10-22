@@ -1,0 +1,15 @@
+C:/OOPLAB2/build/CMakeFiles/laba.dir
+C:/OOPLAB2/build/CMakeFiles/run_tests.dir
+C:/OOPLAB2/build/CMakeFiles/INSTALL.dir
+C:/OOPLAB2/build/CMakeFiles/ALL_BUILD.dir
+C:/OOPLAB2/build/CMakeFiles/ZERO_CHECK.dir
+C:/OOPLAB2/build/googletest/CMakeFiles/INSTALL.dir
+C:/OOPLAB2/build/googletest/CMakeFiles/ALL_BUILD.dir
+C:/OOPLAB2/build/googletest/googlemock/CMakeFiles/gmock.dir
+C:/OOPLAB2/build/googletest/googlemock/CMakeFiles/gmock_main.dir
+C:/OOPLAB2/build/googletest/googlemock/CMakeFiles/INSTALL.dir
+C:/OOPLAB2/build/googletest/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/OOPLAB2/build/googletest/googletest/CMakeFiles/gtest.dir
+C:/OOPLAB2/build/googletest/googletest/CMakeFiles/gtest_main.dir
+C:/OOPLAB2/build/googletest/googletest/CMakeFiles/INSTALL.dir
+C:/OOPLAB2/build/googletest/googletest/CMakeFiles/ALL_BUILD.dir
