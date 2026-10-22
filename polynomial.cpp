@@ -14,19 +14,17 @@ Polynomial::Polynomial(const double* arr, int size) {
     } else {
         deg = size - 1;
         coeffs = new double[size];
-
         for (int i = 0; i < size; i++) {
             coeffs[i] = arr[i];
         }
     }
 }
 
-// правило пяти 
 Polynomial::~Polynomial() {
     delete[] coeffs;
 }
 
-Polynomial::~Polynomial(const Polynomial& other) {
+Polynomial::Polynomial(const Polynomial& other) {
     deg = other.deg;
     if (deg >= 0) {
         coeffs = new double[deg + 1];
@@ -38,15 +36,14 @@ Polynomial::~Polynomial(const Polynomial& other) {
     }
 }
 
-Polynomial::Polynomial(Polynomial&& other) noexcept {
+Polynomial::Polynomial(Polynomial&& other) {
     coeffs = other.coeffs;
     deg = other.deg;
-
     other.coeffs = nullptr;
     other.deg = -1;
 }
 
-void Polynomial::swap(Polynomial& other) noexcept {
+void Polynomial::swap(Polynomial& other) {
     std::swap(coeffs, other.coeffs);
     std::swap(deg, other.deg);
 }
@@ -56,7 +53,8 @@ Polynomial& Polynomial::operator=(Polynomial other) {
     return *this;
 }
 
-double Polynomial::difinite_integral(double a, double b) const {
+
+double Polynomial::definite_integral(double a, double b) const {
     if (deg < 0 || coeffs == nullptr) return 0.0;
 
     double integral_b = 0.0;
@@ -64,7 +62,6 @@ double Polynomial::difinite_integral(double a, double b) const {
 
     for (int i = 0; i <= deg; i++) {
         int new_power = i + 1;
-
         double new_coeff = coeffs[i] / new_power;
 
         integral_b += new_coeff * std::pow(b, new_power);
@@ -86,6 +83,7 @@ double Polynomial::evaluate(double x) const {
 int Polynomial::get_degree() const {
     return deg;
 }
+
 
 
 
